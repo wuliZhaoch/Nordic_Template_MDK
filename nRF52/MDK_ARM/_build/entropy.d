@@ -1,0 +1,12 @@
+.\_build\entropy.o: ..\Nordic_Drivers\external\mbedtls\library\entropy.c
+.\_build\entropy.o: ..\Nordic_Drivers\external\nrf_tls\mbedtls\nrf_crypto\config\nrf_crypto_mbedtls_config.h
+.\_build\entropy.o: ..\Src\sdk_config.h
+.\_build\entropy.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/check_config.h
+.\_build\entropy.o: C:\Keil\ARM\ARMCC\Bin\..\include\limits.h
+.\_build\entropy.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/entropy.h
+.\_build\entropy.o: C:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\_build\entropy.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/sha256.h
+.\_build\entropy.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\entropy.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/entropy_poll.h
+.\_build\entropy.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/platform_util.h
+.\_build\entropy.o: C:\Keil\ARM\ARMCC\Bin\..\include\string.h

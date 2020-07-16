@@ -1,0 +1,12 @@
+.\_build\cmac.o: ..\Nordic_Drivers\external\mbedtls\library\cmac.c
+.\_build\cmac.o: ..\Nordic_Drivers\external\nrf_tls\mbedtls\nrf_crypto\config\nrf_crypto_mbedtls_config.h
+.\_build\cmac.o: ..\Src\sdk_config.h
+.\_build\cmac.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/check_config.h
+.\_build\cmac.o: C:\Keil\ARM\ARMCC\Bin\..\include\limits.h
+.\_build\cmac.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/cmac.h
+.\_build\cmac.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/cipher.h
+.\_build\cmac.o: C:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
+.\_build\cmac.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/platform_util.h
+.\_build\cmac.o: C:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\_build\cmac.o: ..\Nordic_Drivers\external\mbedtls\include\mbedtls/platform.h
+.\_build\cmac.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdlib.h
