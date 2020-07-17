@@ -7,6 +7,9 @@ _build
 # RTM files: Auto generated Run-Time-Environment Component Configuration File
 RTE
 
+# µVision5 project options
+*.uvoptx
+
 # µVision5 Project screen layout file
 *.uvguix.*
 
