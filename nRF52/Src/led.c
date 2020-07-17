@@ -8,7 +8,10 @@
 #include "led.h"
 
 
-/*       LED Initialize       */
+/**
+ * @brief   Function for LED Initialize.
+ * @retval  NULL
+ */
 void LED_Init(void)
 {
     nrf_gpio_cfg(LED1, NRF_GPIO_PIN_DIR_OUTPUT, NRF_GPIO_PIN_INPUT_DISCONNECT,
@@ -24,7 +27,10 @@ void LED_Init(void)
                         NRF_GPIO_PIN_PULLUP, NRF_GPIO_PIN_S0S1, NRF_GPIO_PIN_NOSENSE);
 }
 
-/*       LED Toggle       */
+/**
+ * @brief Function for LED Toggle.
+ * @retval  NULL
+ */
 void LED_Toggle(uint32_t pin_number)
 {
     nrf_gpio_pin_toggle(pin_number);

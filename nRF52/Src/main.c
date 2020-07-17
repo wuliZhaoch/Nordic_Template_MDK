@@ -62,15 +62,15 @@ int main(void)
 {
 
 
-    LED_Init();
+    LED_Init();         // Initialize LED
 
 
     while (true)
     {
-        LED_Toggle(LED1);
-        LED_Toggle(LED2);
-        LED_Toggle(LED3);
-        LED_Toggle(LED4);
+        LED_Toggle(LED1);       // LED1 Toggle
+        LED_Toggle(LED2);       // LED2 Toggle
+        LED_Toggle(LED3);       // LED3 Toggle
+        LED_Toggle(LED4);       // LED4 Toggle
         nrf_delay_ms(1000);
     }
 }
