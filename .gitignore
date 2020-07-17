@@ -1,0 +1,14 @@
+
+# for Keil
+
+# _build files ignore out put file
+_build
+
+# RTM files: Auto generated Run-Time-Environment Component Configuration File
+RTE
+
+# µVision5 Project screen layout file
+*.uvguix.*
+
+# jlink logs
+*JLinkLog.txt

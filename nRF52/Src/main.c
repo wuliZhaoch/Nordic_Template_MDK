@@ -50,6 +50,8 @@
 #include "nordic_common.h"
 #include "boards.h"
 
+#include "nrf_delay.h"
+
 /**
  * @brief Function for application main entry.
  */
@@ -57,6 +59,8 @@ int main(void)
 {
     while (true)
     {
+        nrf_delay_ms(1000);
+
         // Do nothing.
     }
 }
