@@ -52,16 +52,26 @@
 
 #include "nrf_delay.h"
 
+/* wuliZhaoch Include File */
+#include "led.h"
+
 /**
  * @brief Function for application main entry.
  */
 int main(void)
 {
+
+
+    LED_Init();
+
+
     while (true)
     {
+        LED_Toggle(LED1);
+        LED_Toggle(LED2);
+        LED_Toggle(LED3);
+        LED_Toggle(LED4);
         nrf_delay_ms(1000);
-
-        // Do nothing.
     }
 }
 /** @} */
